@@ -1,0 +1,77 @@
+body{
+    background-color: aquamarine;
+}
+
+ul li::before{
+    list-style: none;
+    content:"\1F603";
+}
+
+#Ingredients{
+    color:blue;
+    list-style: none;
+    content:"\1F603";
+}
+
+.Steps{
+    color:blue;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+div{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center ;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+section.spanclass {
+    font-style: italic;    
+}
+
+.underlinespan{
+    text-decoration: underline;
+}
+
+.firstspanclass{
+    font-style: normal;
+    color:red;
+}
+
+
+@media (max-width:400px){
+    #Ingredients{
+        color: red;
+    }
+}
+
+@media (min-width:401px) and (max-width:750px){
+    .Thewholepage{
+        background-color: cyan;
+    }
+}
+
+@media (min-width:750px){
+    .Thewholepage{
+        background-color: lime;
+        font-size: large;
+    }
+    .flexedcontent{
+        display: flex;
+    }
+}
